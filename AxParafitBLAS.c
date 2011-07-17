@@ -13,26 +13,29 @@
 /*  A statistical test for host-parasite coevolution.                           */
 /*  Systematic Biology 51(2): 217-234.                                          */
 /*                                                                              */
-/*  The sequential C code is more than 4 times faster than the original         */
-/*  Fortran program and consumes significantly less memory.                     */
 /*                                                                              */
-/*  This code may be used and modified for non-commercial purposes              */
-/*  but redistribution in any form requires written permission.                 */
-/*  Please contact:                                                             */
+/* This code is made available under GNU GPL version 3 or higher                */
 /*                                                                              */
-/*  Alexandros Stamatakis                                                       */       
-/*  Swiss Federal Institute of Technology                                       */
-/*  School of Computer & Communication Sciences                                 */
-/*  Laboratory for Computational Biology and Bioinformatics (LCBB)              */
-/*  STATION 14                                                                  */
-/*  CH-1015 Lausanne, Switzerland                                               */
+/* When using this code please cite:                                            */
+/* A. Stamatakis, A. Auch, J. Meier-Kolthoff, M. Göker: “AxPcoords & Parallel   */
+/* AxParafit: Statistical Co-Phylogenetic Analyses on Thousands of Taxa”.       */
+/* In BMC Bioinformatics, 8:405, 2007.                                          */
 /*                                                                              */
-/*  Tel:   +41 21 69 31392 (Office)                                             */
-/*         +41 22 54 80003 (SkypeIn)                                            */
-/*         +41 796115849   (Mobile)                                             */
-/*  Skype: stamatak                                                             */
-/*  Email: Alexandros.Stamatakis@epfl.ch                                        */
-/*  WWW:   icwww.epfl.ch/~stamatak                                              */
+/* Dr. Alexandros Stamatakis                                                    */
+/*                                                                              */
+/* Group Leader: Scientific Computing Group (Exelixis Lab & HPC Infrastructure) */
+/* Heidelberg Institute for Theoretical Studies (HITS gGmbH)                    */
+/*                                                                              */
+/* Schloss-Wolfsbrunnenweg 35                                                   */
+/* D-69118 Heidelberg                                                           */
+/* Germany                                                                      */
+/*                                                                              */
+/* Tel:   +49 1511 7496080 (Mobile)                                             */
+/*       +49 6221 533240 (Office)                                               */
+/* Fax:   +49 6221 533298                                                       */
+/* Skype: stamatak                                                              */
+/* Email: Alexandros.Stamatakis@h-its.org                                       */
+/* WWW:   http://www.exelixis-lab.org                                           */
 
 #include <stdio.h>
 #include <stdlib.h>
