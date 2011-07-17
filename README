@@ -1,0 +1,9 @@
+source code for accelerated Parafit to asses host-parasite phylogenetic relationships.
+
+For more details see papers:
+
+H. Stockinger, A. Auch, M. Göker, J. Meier-Kolthoff, A. Stamatakis: “Large-Scale Co-Phylogenetic Analysis on the Grid”. International Journal of Grid and High Performance Computing, IGI Publishing, 1(1):39-54, 2009.
+
+and
+
+A. Stamatakis, A. Auch, J. Meier-Kolthoff, M. Göker: “AxPcoords & Parallel AxParafit: Statistical Co-Phylogenetic Analyses on Thousands of Taxa”. In BMC Bioinformatics, 8:405, 2007.   
